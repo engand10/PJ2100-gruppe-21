@@ -1,0 +1,133 @@
+	body{
+		background-image: url(bilder/bg_html.jpg);
+		margin: 0px;
+		padding: 0px;
+		font-family: century gothic;
+	}
+	#header{
+		width: 100%;
+		height: 40px;
+		position: fixed;
+		background-image: url(bilder/bg_top.png);
+		z-index: 1;
+		-webkit-box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.5); 
+		
+	}
+	#menu{
+		position: relative;
+		margin: auto;
+		text-align: center;
+	}
+	#menu li
+		{
+		display: inline;
+		list-style-type: none;
+		padding-right: 20px;
+		}
+	#home{
+		width: 100%;
+		height: 800px;
+		position: relative;
+	}
+	#home_container{
+		position: relative;
+		width: 970px;
+		height: 100%;
+		margin: auto;
+	}
+	#logo{
+		width: 408px;
+		height: 136px;
+		background-image: url(bilder/logo.png);
+		position: absolute;
+		top: 200px;
+		left: 100px;
+	}
+	#date{
+		width: 355px;
+		height: 96px;
+		background-image: url(bilder/date.png);
+		position: absolute;
+		top: 230px;
+		left: 550px;
+	}
+	#home_text{
+		width: 100%;
+		height: 400px;
+		font-size: 35px;
+		color: #000;
+		position: absolute;
+		top: 400px;
+	}
+	#speakers{
+		width: 100%;
+		height: 800px;
+		position: relative;
+		background-image: url(bilder/bg_orange.jpg);
+	}
+	#speaker_container{
+		position: relative;
+		width: 1024px;
+		height: 100%;
+		margin: auto;
+		
+	}
+	#speaker_header{
+		width: 100%;
+		height: 100px;
+		font-size: 35px;
+		color: #fff;
+		position: absolute;
+		top: 70px;
+		text-align: center;
+	}
+	#bilder{
+		position: absolute;
+		margin: auto;
+		text-align: center;
+		top: 150px;
+	}
+	#bilder li{
+		display: inline;
+		list-style-type: none;
+		padding-right: 20px;
+		
+	}
+	#venue{
+		width: 100%;
+		height: 800px;
+		position: relative;
+	}
+	#venue_container{
+		position: relative;
+		width: 970px;
+		height: 100%;
+		margin: auto;
+	}
+	#venue_header{
+		width: 100%;
+		height: 100px;
+		font-size: 35px;
+		color: #000;
+		position: absolute;
+		top: 70px;
+		text-align: center;
+	}
+	#bilde1{
+		width: 408px;
+		height: 136px;
+		background-image: url(bilder/logo.png);
+		position: absolute;
+		top: 200px;
+		left: 100px;
+	}
+	#bilde2{
+		width: 355px;
+		height: 96px;
+		background-image: url(bilder/date.png);
+		position: absolute;
+		top: 230px;
+		left: 550px;
+	}
